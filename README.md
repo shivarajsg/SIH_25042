@@ -1,89 +1,55 @@
-<div align="center">
-
 # 🧬 eDNA Explorer
 
-*Interactive, modern dashboard for exploring environmental DNA (eDNA) biodiversity data*
+*Interactive, modern dashboard for exploring environmental DNA (eDNA) biodiversity data*  
 
-> ✨ *Clean UX, instant feedback, and exportable insights for biodiversity analysis*
-
-</div>
+> ✨ Clean UX, instant feedback, and exportable insights for biodiversity analysis
 
 ---
 
 ## ✨ Key Features
 
-| Performance | Science-Ready |
-|------------|----------------|
-| ⚡ Instant analysis - Upload and get insights in seconds | 🧪 eDNA workflows - Built for environmental DNA analysis |
-| 📊 Real-time processing - Live data visualization | 📈 Advanced metrics - Comprehensive biodiversity KPIs |
-| 🎯 Optimized algorithms - Fast biodiversity calculations | 🔍 Data validation - Quality checks and error handling |
+### 🚀 Performance
+- ⚡ Instant analysis - Upload and get insights in seconds  
+- 📊 Real-time processing - Live data visualization  
+- 🎯 Optimized algorithms - Fast biodiversity calculations  
 
-| User Experience | Export & Share |
-|----------------|----------------|
-| 💫 Modern UI - Clean, intuitive interface | 📥 Multiple formats - CSV, JSON, PDF reports |
-| 📱 Responsive design - Works on all devices | 🖼 Visual exports - High-quality charts and graphs |
-| 🎛 Interactive dashboards - Customizable views | 🔗 Easy sharing - Direct link generation |
+### 🔬 Science-Ready
+- 🧪 eDNA workflows - Built for environmental DNA analysis  
+- 📈 Advanced metrics - Comprehensive biodiversity KPIs  
+- 🔍 Data validation - Quality checks and error handling  
 
----
+### 🎨 User Experience
+- 💫 Modern UI - Clean, intuitive interface  
+- 📱 Responsive design - Works on all devices  
+- 🎛️ Interactive dashboards - Customizable views  
 
-## 🛠 Tech Stack
-
-<div align="center">
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-
-</div>
+### 📤 Export & Share
+- 📥 Multiple formats - CSV, JSON, PDF reports  
+- 🖼️ Visual exports - High-quality charts and graphs  
+- 🔗 Easy sharing - Direct link generation  
 
 ---
 
-## 🚀 Project Structure
+## 🛠️ Tech Stack
 
-edna-explorer-main/
-├─ public/
-│ ├─ favicon.ico
-│ ├─ hero-edna-analysis.jpg
-│ └─ placeholder.svg
-├─ src/
-│ ├─ assets/
-│ │ └─ hero-edna-analysis.jpg
-│ ├─ components/
-│ │ ├─ eDNA/
-│ │ │ ├─ BiodiversityDashboard.tsx
-│ │ │ ├─ DataProcessor.tsx
-│ │ │ ├─ ExportResults.tsx
-│ │ │ └─ FileUpload.tsx
-│ │ └─ ui/ # shadcn/ui components
-│ ├─ hooks/
-│ │ ├─ use-mobile.tsx
-│ │ └─ use-toast.ts
-│ ├─ pages/
-│ │ ├─ Index.tsx
-│ │ └─ NotFound.tsx
-│ ├─ App.tsx
-│ ├─ main.tsx
-│ └─ index.css
-├─ .gitignore
-├─ package.json
-├─ package-lock.json
-├─ tsconfig.json
-├─ vite.config.ts
-├─ tailwind.config.ts
-└─ README.md
+React | TypeScript | Vite | Tailwind CSS | Node.js  
 
-yaml
-Copy code
+| Category | Technology | Purpose |
+|----------|------------|---------|
+| 🎨 Frontend | React 18+ | Component-based UI framework |
+| 📝 Language | TypeScript 5+ | Type-safe development |
+| ⚡ Build Tool | Vite | Fast development & building |
+| 🎨 Styling | Tailwind CSS | Utility-first CSS framework |
+| 🧩 UI Components | shadcn/ui | Pre-built accessible components |
+| 📊 Charts | Custom utilities | Lightweight data visualization |
 
 ---
 
-## 🌐 Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+ ([Download](https://nodejs.org/))
-- npm / yarn / pnpm
+- 📦 Node.js 18+ ([Download](https://nodejs.org/))  
+- 📦 npm / yarn / pnpm  
 
 ### Installation
 ```bash
@@ -101,11 +67,14 @@ Open http://localhost:5173 in your browser.
 Build for Production
 bash
 Copy code
+# Create production build
 npm run build
+
+# Preview production build locally
 npm run preview
 🌐 Deployment
 Option 1: Vercel (Recommended)
-Connect your repository in vercel.com
+Connect repository at vercel.com
 
 Framework Preset: Vite
 
@@ -115,31 +84,81 @@ Output Directory: dist
 
 Install Command: npm install
 
-Deploy → Live URL
+Deploy → Live at your project URL
 
 Option 2: Netlify
-Connect repository in netlify.com
+Connect repository at netlify.com
 
-Build command: npm run build
+Build Command: npm run build
 
-Publish directory: dist
+Publish Directory: dist
 
 Environment: NODE_VERSION=18
 
-Deploy → Live URL
+Deploy → Live at your site URL
 
+🗂 Project Structure
+pgsql
+Copy code
+edna-explorer-main/
+├─ public/
+│  ├─ favicon.ico
+│  └─ placeholder.svg
+├─ src/
+│  ├─ assets/
+│  │  └─ hero-edna-analysis.jpg
+│  ├─ components/
+│  │  ├─ eDNA/
+│  │  │  ├─ BiodiversityDashboard.tsx
+│  │  │  ├─ DataProcessor.tsx
+│  │  │  ├─ ExportResults.tsx
+│  │  │  └─ FileUpload.tsx
+│  │  └─ ui/          # shadcn/ui components
+│  ├─ hooks/
+│  │  ├─ use-mobile.tsx
+│  │  └─ use-toast.ts
+│  ├─ pages/
+│  │  ├─ Index.tsx
+│  │  └─ NotFound.tsx
+│  ├─ App.tsx
+│  ├─ main.tsx
+│  └─ index.css
+├─ .gitignore
+├─ package.json
+├─ package-lock.json
+├─ tsconfig.json
+├─ vite.config.ts
+├─ tailwind.config.ts
+└─ README.md
 📝 Usage Guide
-Launch dev server.
+Launch the dev server
 
-Open Index.tsx to access the main page.
+Open Index.tsx
 
-Use File Upload to add eDNA dataset.
+Use File Upload to add your eDNA dataset (supported formats depend on your FileUpload.tsx)
 
-Data Processor computes key biodiversity metrics.
+Data Processor computes key biodiversity metrics
 
-Explore Biodiversity Dashboard (charts, tables, summaries).
+Explore Biodiversity Dashboard (charts, tables, summaries)
 
-Use Export Results for CSV/JSON/PDF outputs.
+Use Export Results to save outputs
+
+Key modules:
+
+src/components/eDNA/FileUpload.tsx: Handles file ingestion
+
+src/components/eDNA/DataProcessor.tsx: Parses and processes dataset
+
+src/components/eDNA/BiodiversityDashboard.tsx: Renders insights and charts
+
+src/components/eDNA/ExportResults.tsx: Exports data/visuals
+
+🎨 Theming and UI
+Tailwind CSS manages styles (tailwind.config.ts, src/index.css)
+
+UI primitives in src/components/ui/ (shadcn/ui)
+
+Customize spacing, colors, tokens via Tailwind and component props
 
 🤝 Contributing
 Fork repository
@@ -148,13 +167,18 @@ Create a feature branch: git checkout -b feature/amazing-feature
 
 Make changes & test: npm run dev
 
-Commit & push: git commit -m "Add amazing feature" → git push origin feature/amazing-feature
+Commit & push: git commit -m 'Add amazing feature' → git push origin feature/amazing-feature
 
-Open a Pull Request
+Open a Pull Request with description and screenshots
 
-Follow code style, write clear commits, test thoroughly, and update documentation if needed.
+Guidelines:
 
-📄 License
-MIT License – see LICENSE for details.
+Follow existing code style and conventions
 
-<div align="center"> ⭐ Star this repository if you found it helpful! Made with ❤ for the scientific community </div> ```
+Write clear commit messages
+
+Test thoroughly
+
+Update documentation if needed
+
+Report bugs using GitHub Issues
