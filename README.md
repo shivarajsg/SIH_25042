@@ -193,7 +193,7 @@ npm run preview
 ```text
 edna-explorer-main/
 ├─ public/
-│  ├─ favicon.ico
+│  ├─ DNAicon.ico
 │  └─ placeholder.svg
 ├─ src/
 │  ├─ assets/
