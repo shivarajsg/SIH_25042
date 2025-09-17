@@ -84,12 +84,12 @@
   <tbody>
     <tr>
       <td style="text-align:center">🎨 <strong>Frontend</strong></td>
-      <td style="text-align:center">React 18+</td>
+      <td style="text-align:center">React </td>
       <td style="text-align:center">Component-based UI framework</td>
     </tr>
     <tr>
       <td style="text-align:center">📝 <strong>Language</strong></td>
-      <td style="text-align:center">TypeScript 5+</td>
+      <td style="text-align:center">TypeScript </td>
       <td style="text-align:center">Type-safe development</td>
     </tr>
     <tr>
