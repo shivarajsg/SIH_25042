@@ -1,10 +1,8 @@
 <div align="center">
 
-
 # 🧬 eDNA Explorer
 
 *Interactive, modern dashboard for exploring environmental DNA (eDNA) biodiversity data*
-
 
 > ✨ *Clean UX, instant feedback, and exportable insights for biodiversity analysis*
 
@@ -14,48 +12,19 @@
 
 ## ✨ Key Features
 
-<table>
-<tr>
-<td width="50%">
+| Performance | Science-Ready |
+|------------|----------------|
+| ⚡ Instant analysis - Upload and get insights in seconds | 🧪 eDNA workflows - Built for environmental DNA analysis |
+| 📊 Real-time processing - Live data visualization | 📈 Advanced metrics - Comprehensive biodiversity KPIs |
+| 🎯 Optimized algorithms - Fast biodiversity calculations | 🔍 Data validation - Quality checks and error handling |
 
-### 🚀 *Performance*
-- ⚡ *Instant analysis* - Upload and get insights in seconds
-- 📊 *Real-time processing* - Live data visualization
-- 🎯 *Optimized algorithms* - Fast biodiversity calculations
-
-</td>
-<td width="50%">
-
-### 🔬 *Science-Ready*
-- 🧪 *eDNA workflows* - Built for environmental DNA analysis
-- 📈 *Advanced metrics* - Comprehensive biodiversity KPIs
-- 🔍 *Data validation* - Quality checks and error handling
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🎨 *User Experience*
-- 💫 *Modern UI* - Clean, intuitive interface
-- 📱 *Responsive design* - Works on all devices
-- 🎛 *Interactive dashboards* - Customizable views
-
-</td>
-<td width="50%">
-
-### 📤 *Export & Share*
-- 📥 *Multiple formats* - CSV, JSON, PDF reports
-- 🖼 *Visual exports* - High-quality charts and graphs
-- 🔗 *Easy sharing* - Direct link generation
-
-</td>
-</tr>
-</table>
+| User Experience | Export & Share |
+|----------------|----------------|
+| 💫 Modern UI - Clean, intuitive interface | 📥 Multiple formats - CSV, JSON, PDF reports |
+| 📱 Responsive design - Works on all devices | 🖼 Visual exports - High-quality charts and graphs |
+| 🎛 Interactive dashboards - Customizable views | 🔗 Easy sharing - Direct link generation |
 
 ---
-
- 
 
 ## 🛠 Tech Stack
 
@@ -69,64 +38,55 @@
 
 </div>
 
-<div align="center">
+---
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:center">Category</th>
-      <th style="text-align:center">Technology</th>
-      <th style="text-align:center">Purpose</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center">🎨 <strong>Frontend</strong></td>
-      <td style="text-align:center">React 18+</td>
-      <td style="text-align:center">Component-based UI framework</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">📝 <strong>Language</strong></td>
-      <td style="text-align:center">TypeScript 5+</td>
-      <td style="text-align:center">Type-safe development</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">⚡ <strong>Build Tool</strong></td>
-      <td style="text-align:center">Vite</td>
-      <td style="text-align:center">Fast development & building</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🎨 <strong>Styling</strong></td>
-      <td style="text-align:center">Tailwind CSS</td>
-      <td style="text-align:center">Utility-first CSS framework</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">🧩 <strong>UI Components</strong></td>
-      <td style="text-align:center">shadcn/ui</td>
-      <td style="text-align:center">Pre-built accessible components</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">📊 <strong>Charts</strong></td>
-      <td style="text-align:center">Custom utilities</td>
-      <td style="text-align:center">Lightweight data visualization</td>
-    </tr>
-  </tbody>
-  </table>
+## 🚀 Project Structure
 
-</div>
+edna-explorer-main/
+├─ public/
+│ ├─ favicon.ico
+│ ├─ hero-edna-analysis.jpg
+│ └─ placeholder.svg
+├─ src/
+│ ├─ assets/
+│ │ └─ hero-edna-analysis.jpg
+│ ├─ components/
+│ │ ├─ eDNA/
+│ │ │ ├─ BiodiversityDashboard.tsx
+│ │ │ ├─ DataProcessor.tsx
+│ │ │ ├─ ExportResults.tsx
+│ │ │ └─ FileUpload.tsx
+│ │ └─ ui/ # shadcn/ui components
+│ ├─ hooks/
+│ │ ├─ use-mobile.tsx
+│ │ └─ use-toast.ts
+│ ├─ pages/
+│ │ ├─ Index.tsx
+│ │ └─ NotFound.tsx
+│ ├─ App.tsx
+│ ├─ main.tsx
+│ └─ index.css
+├─ .gitignore
+├─ package.json
+├─ package-lock.json
+├─ tsconfig.json
+├─ vite.config.ts
+├─ tailwind.config.ts
+└─ README.md
+
+yaml
+Copy code
 
 ---
 
-## 🚀 Quick Start
+## 🌐 Quick Start
 
 ### Prerequisites
-
-- 📦 *Node.js* 18+ ([Download](https://nodejs.org/))
-- 📦 *npm* or *yarn* or *pnpm*
+- Node.js 18+ ([Download](https://nodejs.org/))
+- npm / yarn / pnpm
 
 ### Installation
-
-bash
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/edna-explorer.git
 cd edna-explorer
@@ -136,150 +96,65 @@ npm install
 
 # Start development server
 npm run dev
+Open http://localhost:5173 in your browser.
 
-
-🌐 *Open* [http://localhost:5173](http://localhost:5173) in your browser
-
-### Build for Production
-
+Build for Production
 bash
-# Create production build
+Copy code
 npm run build
-
-# Preview production build locally
 npm run preview
+🌐 Deployment
+Option 1: Vercel (Recommended)
+Connect your repository in vercel.com
 
+Framework Preset: Vite
 
----
+Build Command: npm run build
 
-## 🌐 Deployment
+Output Directory: dist
 
-### Option 1: Vercel (Recommended) 🚀
+Install Command: npm install
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/edna-explorer)
+Deploy → Live URL
 
-1. *Connect Repository*
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project" → Import your repository
+Option 2: Netlify
+Connect repository in netlify.com
 
-2. *Configure Settings*
-   - Framework Preset: Vite
-   - Build Command: npm run build
-   - Output Directory: dist
-   - Install Command: npm install
+Build command: npm run build
 
-3. *Deploy* → Live at https://your-project.vercel.app
+Publish directory: dist
 
-### Option 2: Netlify 🌐
+Environment: NODE_VERSION=18
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yourusername/edna-explorer)
+Deploy → Live URL
 
-1. *Connect Repository*
-   - Go to [netlify.com](https://netlify.com)
-   - Click "New site from Git"
+📝 Usage Guide
+Launch dev server.
 
-2. *Build Settings*
-   - Build command: npm run build
-   - Publish directory: dist
-   - Environment: NODE_VERSION=18
+Open Index.tsx to access the main page.
 
-3. *Deploy* → Live at https://your-site.netlify.app
+Use File Upload to add eDNA dataset.
 
----
+Data Processor computes key biodiversity metrics.
 
-### Project Structure
+Explore Biodiversity Dashboard (charts, tables, summaries).
 
-text
-edna-explorer-main/
-├─ public/
-│  ├─ favicon.ico
-│  └─ placeholder.svg
-├─ src/
-│  ├─ assets/
-│  │  └─ hero-edna-analysis.jpg
-│  ├─ components/
-│  │  ├─ eDNA/
-│  │  │  ├─ BiodiversityDashboard.tsx
-│  │  │  ├─ DataProcessor.tsx
-│  │  │  ├─ ExportResults.tsx
-│  │  │  └─ FileUpload.tsx
-│  │  └─ ui/ (shadcn/ui components)
-│  ├─ pages/
-│  │  ├─ Index.tsx
-│  │  └─ NotFound.tsx
-│  ├─ App.tsx
-│  └─ main.tsx
-├─ index.html
-└─ README.md
+Use Export Results for CSV/JSON/PDF outputs.
 
+🤝 Contributing
+Fork repository
 
----
+Create a feature branch: git checkout -b feature/amazing-feature
 
-### Usage Guide
+Make changes & test: npm run dev
 
-1) Launch the dev server.
-2) Go to the main page (Index.tsx).
-3) Use the *File Upload* to add your eDNA dataset (supported formats depend on your implementation of FileUpload.tsx).
-4) The *Data Processor* will compute key biodiversity metrics.
-5) Explore results in the *Biodiversity Dashboard* (charts, tables, summaries).
-6) Use *Export Results* to save outputs for reporting.
+Commit & push: git commit -m "Add amazing feature" → git push origin feature/amazing-feature
 
-Key modules:
+Open a Pull Request
 
-- src/components/eDNA/FileUpload.tsx: Handles file ingestion.
-- src/components/eDNA/DataProcessor.tsx: Parses and processes dataset.
-- src/components/eDNA/BiodiversityDashboard.tsx: Renders insights and charts.
-- src/components/eDNA/ExportResults.tsx: Exports data/visuals.
+Follow code style, write clear commits, test thoroughly, and update documentation if needed.
 
----
+📄 License
+MIT License – see LICENSE for details.
 
-### Theming and UI
-
-Styles are powered by Tailwind (tailwind.config.ts, src/index.css). UI primitives are in src/components/ui/ using shadcn/ui patterns. Customize tokens, spacing, and colors via Tailwind config and component props.
-
----
-
- 
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-### 🛠 Development Workflow
-
-1. *Fork* the repository
-2. *Create* a feature branch: git checkout -b feature/amazing-feature
-3. *Make* your changes following the existing code style
-4. *Test* your changes: npm run dev
-5. *Commit* your changes: git commit -m 'Add amazing feature'
-6. *Push* to the branch: git push origin feature/amazing-feature
-7. *Open* a Pull Request with a clear description and screenshots
-
-### 📋 Guidelines
-
-- 🎨 Follow the existing code style and conventions
-- 📝 Write clear commit messages
-- 🧪 Test your changes thoroughly
-- 📖 Update documentation if needed
-- 🐛 Report bugs using GitHub Issues
-
----
-
-## 📄 License
-
-This project is licensed under the *MIT License* - see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-
-*⭐ Star this repository if you found it helpful!*
-
-Made with ❤ for the scientific community
-
-</div>
-
-
-\
+<div align="center"> ⭐ Star this repository if you found it helpful! Made with ❤ for the scientific community </div> ```
