@@ -6,7 +6,7 @@
 *Interactive, modern dashboard for exploring environmental DNA (eDNA) biodiversity data*
 
 
-✨ *Clean UX, instant feedback, and exportable insights for biodiversity analysis*
+> ✨ *Clean UX, instant feedback, and exportable insights for biodiversity analysis*
 
 </div>
 
@@ -82,12 +82,12 @@
   <tbody>
     <tr>
       <td style="text-align:center">🎨 <strong>Frontend</strong></td>
-      <td style="text-align:center">React</td>
+      <td style="text-align:center">React 18+</td>
       <td style="text-align:center">Component-based UI framework</td>
     </tr>
     <tr>
       <td style="text-align:center">📝 <strong>Language</strong></td>
-      <td style="text-align:center">TypeScript </td>
+      <td style="text-align:center">TypeScript 5+</td>
       <td style="text-align:center">Type-safe development</td>
     </tr>
     <tr>
@@ -121,7 +121,7 @@
 
 ### Prerequisites
 
-- 📦 *Node.js* ([Download](https://nodejs.org/))
+- 📦 *Node.js* 18+ ([Download](https://nodejs.org/))
 - 📦 *npm* or *yarn* or *pnpm*
 
 ### Installation
@@ -138,6 +138,7 @@ npm install
 npm run dev
 
 
+🌐 *Open* [http://localhost:5173](http://localhost:5173) in your browser
 
 ### Build for Production
 
@@ -191,7 +192,7 @@ npm run preview
 text
 edna-explorer-main/
 ├─ public/
-│  ├─ DNAicon.ico
+│  ├─ favicon.ico
 │  └─ placeholder.svg
 ├─ src/
 │  ├─ assets/
@@ -238,6 +239,24 @@ Styles are powered by Tailwind (tailwind.config.ts, src/index.css). UI primitive
 
 ---
 
+ 
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+### 🛠 Development Workflow
+
+1. *Fork* the repository
+2. *Create* a feature branch: git checkout -b feature/amazing-feature
+3. *Make* your changes following the existing code style
+4. *Test* your changes: npm run dev
+5. *Commit* your changes: git commit -m 'Add amazing feature'
+6. *Push* to the branch: git push origin feature/amazing-feature
+7. *Open* a Pull Request with a clear description and screenshots
+
 ### 📋 Guidelines
 
 - 🎨 Follow the existing code style and conventions
@@ -247,3 +266,20 @@ Styles are powered by Tailwind (tailwind.config.ts, src/index.css). UI primitive
 - 🐛 Report bugs using GitHub Issues
 
 ---
+
+## 📄 License
+
+This project is licensed under the *MIT License* - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+*⭐ Star this repository if you found it helpful!*
+
+Made with ❤ for the scientific community
+
+</div>
+
+
+\
